@@ -1,0 +1,71 @@
+#Base
+
+print "Quelle est ton nom ?"
+first_name = gets.chomp                                 #Questions Prénom Nom Ville Province Etc...
+puts "Votre prénom est #{first_name}"
+
+
+#Tout en haut si tu as faim ou autre n'importe quoi sa marche sa mettras tel message et inversement.
+#Ne pas Oublier Else et Elsif Pour continuer plus longtemps
+
+hungry = true
+
+unless hungry
+  puts "J'apprend le Ruby !"
+else
+  puts "Mais maintenant j'ai faim !"
+end
+
+
+
+#On peux continuer Else à l'infinie avec elsif
+
+if x < y
+  puts "X Est plus petit que Y.........Lol"
+elsif x > y
+  puts "X Est plus grand que Y........Lol"
+else
+  puts "X Est Egale a Y !"
+end
+
+
+
+#C'est pour montrer qu'il sont égaux.
+
+x = 2
+y = 2
+
+if x == y
+  print "X et Y sont egaux."
+end
+
+is_true = x == y
+
+is_false = x != y
+
+
+#Maths -_-
+
+
+# test_1 = 77 != 77
+test_1 = false
+
+# test_2 = -4 <= -4
+test_2 = true
+
+# test_3 = -44 < -33
+test_3 = true
+
+# test_4 = 100 == 1000
+test_4 = false
+
+
+#Il faut que sa sois true ou false ( FACILE )
+
+puts test_1 = 10 < 4  
+
+# test_2 = should be false
+puts test_2 = 11 < 6
+
+# test_3 = should be true
+puts test_3 = 10 > 5
